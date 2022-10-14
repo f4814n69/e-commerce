@@ -1,0 +1,66 @@
+:root{
+  --bg: #grey
+  
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  background: url(https://static.vecteezy.com/system/resources/previews/000/533/557/original/abstract-black-technology-lines-art-background-and-space-vector.jpg);
+  background-size: 100%;
+}
+
+.header{
+  display: flex;
+  border: 2px solid rgb(161, 157, 157);
+  gap: 100px;
+  justify-content: center;
+  background: whitesmoke;
+  
+  
+}
+
+.container{
+  width: 200px;
+  height: 196px;
+  text-align: center;
+  background: white;
+  gap: 5px;
+}
+
+
+.articles{
+  width: 100%;
+  background: whitesmoke;
+  gap: 5px;
+}
+
+.article{
+  width: 196px;
+  height: 100%;
+  border: 2px solid rgb(161, 157, 157);
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+   
+}
+
+.btn{
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(200, 200, 212);
+  font-size: 15px;
+  padding: 5px;
+  
+}
+
+/*.contenedor__coleccion {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+}*/
